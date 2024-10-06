@@ -5,7 +5,9 @@ There are two type of application:
 * [Mountain Car classic](MountainCar.ipynb): The Mountain Car MDP is a deterministic MDP that consists of a car placed stochastically at the bottom of a sinusoidal valley, with the only possible actions being the accelerations that can be applied to the car in either direction. The goal of the MDP is to strategically accelerate the car to reach the goal state on top of the right hill. <img src="https://github.com/lorenzoR21/MountainCar-ReinforcementLearning/blob/main/TEST_Classic.gif">
 * [Mountain Car variant](MountainCar_modLaser.ipynb): The idea of this variant remains the same as the Mountain Car, leaving the actions, rewards, goal, end condition, etc. unchanged; the addition was that of an intermittent laser. The role of this laser is as follows: when the car crosses this laser it is stopped, in particular the speed is set to 0.
  <img src="https://github.com/lorenzoR21/MountainCar-ReinforcementLearning/blob/main/TEST_Variant.gif">
+ 
 # Implementation and Result
-For the implementation details and the result see the [paper]()
+For the implementation details and the result see the [paper](MountainCar_paper) written by me.
+
 ## Author
 [Lorenzo Russo](https://github.com/lorenzoR21)
